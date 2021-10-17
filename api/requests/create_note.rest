@@ -1,0 +1,9 @@
+# Seguir la misma instruccion
+POST http://localhost:3010/api/notes
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxNmI5ZDQ0MTBhYjE0ZmNkOTA0MDhlMSIsInVzZXJuYW1lIjoic2F1dGVyZGV2IiwiaWF0IjoxNjM0NDQyOTExLCJleHAiOjE2MzUwNDc3MTF9.nhjXnCaxoabvHDKYDO7OdmB2KRonAdynfBtFDIQ3y9A
+
+{
+  "content": "Aprasdadr asdasdTJS",
+  "important": true
+}

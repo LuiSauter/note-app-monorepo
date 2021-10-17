@@ -1,0 +1,38 @@
+{
+  "name": "part3-fullstack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_ENV=development nodemon index.js",
+    "start": "NODE_ENV=production node index.js",
+    "start:test": "NODE_ENV=test node index.js",
+    "test": "NODE_ENV=test PORT=1234 jest --verbose tests/user.test.js",
+    "test:watch": "npm run test -- --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@testing-library/jest-dom": "5.14.1",
+    "@testing-library/react": "12.1.2",
+    "jest": "27.2.4",
+    "nodemon": "2.0.13",
+    "supertest": "6.1.6"
+  },
+  "dependencies": {
+    "@sentry/node": "6.13.2",
+    "@sentry/tracing": "6.13.2",
+    "bcrypt": "5.0.1",
+    "cors": "2.8.5",
+    "cross-env": "7.0.3",
+    "dotenv": "10.0.0",
+    "express": "4.17.1",
+    "jsonwebtoken": "8.5.1",
+    "mongoose": "6.0.8",
+    "mongoose-unique-validator": "3.0.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}

@@ -1,0 +1,8 @@
+PUT http://localhost:3010/api/notes/616b9eda10ab14fcd90408fc
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxNmI5ZDQ0MTBhYjE0ZmNkOTA0MDhlMSIsInVzZXJuYW1lIjoic2F1dGVyZGV2IiwiaWF0IjoxNjM0NDQzMTkxLCJleHAiOjE2MzUwNDc5OTF9.bLjNq1mvrRz170PWWRXW_gsDOeUmVGaOWnyyrtuffaA
+
+{
+  "content": "Juego de Calamar esta bueno",
+  "important": true
+}
